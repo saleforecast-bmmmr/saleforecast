@@ -1,0 +1,485 @@
+{
+    "electronics": {
+        "smartphone": {
+            "smartphone": 2053013555631882655
+        },
+        "audio": {
+            "headphone": {
+                "headphone": 2053013554658804075
+            },
+            "acoustic": {
+                "acoustic": 2053013554499420513
+            },
+            "subwoofer": {
+                "subwoofer": 2053013553945772349
+            },
+            "music_tools": {
+                "piano": {
+                    "piano": 2053013557603205653
+                }
+            },
+            "microphone": {
+                "microphone": 2053013554474254687
+            },
+            "dictaphone": {
+                "dictaphone": 2127424806855902066
+            }
+        },
+        "clocks": {
+            "clocks": 2053013553341792533
+        },
+        "telephone": {
+            "telephone": 2053013555573162395
+        },
+        "video": {
+            "tv": {
+                "tv": 2053013554415534427
+            },
+            "projector": {
+                "projector": 2053013552570040549
+            }
+        },
+        "tablet": {
+            "tablet": 2053013552695869677
+        },
+        "camera": {
+            "video": {
+                "video": 2053013560530830019
+            },
+            "photo": {
+                "photo": 2053013560497275585
+            }
+        }
+    },
+    "furniture": {
+        "bathroom": {
+            "toilet": {
+                "toilet": 2053013557418656265
+            },
+            "bath": {
+                "bath": 2053013557477376525
+            }
+        },
+        "kitchen": {
+            "table": {
+                "table": 2053013558316237377
+            },
+            "chair": {
+                "chair": 2053013556487520725
+            }
+        },
+        "living_room": {
+            "chair": {
+                "chair": 2053013560312726199
+            },
+            "cabinet": {
+                "cabinet": 2053013557133443581
+            },
+            "sofa": {
+                "sofa": 2053013559792632471
+            },
+            "shelving": {
+                "shelving": 2060981320481243178
+            }
+        },
+        "bedroom": {
+            "bed": {
+                "bed": 2053013557192163841
+            },
+            "pillow": {
+                "pillow": 2053013561780732677
+            },
+            "blanket": {
+                "blanket": 2053013561847841545
+            }
+        },
+        "universal": {
+            "light": {
+                "light": 2053013562149831447
+            }
+        }
+    },
+    "appliances": {
+        "environment": {
+            "air_heater": {
+                "air_heater": 2053013552293216471
+            },
+            "vacuum": {
+                "vacuum": 2053013565983425517
+            },
+            "water_heater": {
+                "water_heater": 2053013552326770905
+            },
+            "air_conditioner": {
+                "air_conditioner": 2053013552351936731
+            },
+            "fan": {
+                "fan": 2053013552226107603
+            },
+            "climate": {
+                "climate": 2053013552167387343
+            }
+        },
+        "kitchen": {
+            "meat_grinder": {
+                "meat_grinder": 2053013555321504139
+            },
+            "blender": {
+                "blender": 2053013555262783879
+            },
+            "washer": {
+                "washer": 2053013563810775923
+            },
+            "refrigerators": {
+                "refrigerators": 2053013563911439225
+            },
+            "hood": {
+                "hood": 2053013563743667055
+            },
+            "toster": {
+                "toster": 2053013554960793975
+            },
+            "microwave": {
+                "microwave": 2053013554776244595
+            },
+            "coffee_grinder": {
+                "coffee_grinder": 2053013554725912943
+            },
+            "mixer": {
+                "mixer": 2053013555069845885
+            },
+            "dishwasher": {
+                "dishwasher": 2053013563944993659
+            },
+            "hob": {
+                "hob": 2053013563877884791
+            },
+            "oven": {
+                "oven": 2053013564003713919
+            },
+            "kettle": {
+                "kettle": 2053013554834964853
+            },
+            "coffee_machine": {
+                "coffee_machine": 2053013555095011711
+            },
+            "juicer": {
+                "juicer": 2053013555220840837
+            },
+            "grill": {
+                "grill": 2053013554751078769
+            },
+            "steam_cooker": {
+                "steam_cooker": 2053013555120177537
+            },
+            "fryer": {
+                "fryer": 2185524688778691138
+            }
+        },
+        "personal": {
+            "hair_cutter": {
+                "hair_cutter": 2053013563097744201
+            },
+            "scales": {
+                "scales": 2053013562946749253
+            },
+            "massager": {
+                "massager": 2053013565941482475
+            }
+        },
+        "sewing_machine": {
+            "sewing_machine": 2053013566100866035
+        },
+        "iron": {
+            "iron": 2053013566176363511
+        },
+        "ironing_board": {
+            "ironing_board": 2053013566033757167
+        }
+    },
+    "auto": {
+        "accessories": {
+            "videoregister": {
+                "videoregister": 2053013560899928785
+            },
+            "player": {
+                "player": 2053013553970938175
+            },
+            "radar": {
+                "radar": 2053013560866374351
+            },
+            "alarm": {
+                "alarm": 2053013560807654091
+            },
+            "compressor": {
+                "compressor": 2053013560581161671
+            },
+            "parktronic": {
+                "parktronic": 2053013560623104713
+            },
+            "winch": {
+                "winch": 2100065080828756704
+            },
+            "anti_freeze": {
+                "anti_freeze": 2147123662858224552
+            },
+            "light": {
+                "light": 2078957452602114300
+            }
+        }
+    },
+    "computers": {
+        "notebook": {
+            "notebook": 2053013558920217191
+        },
+        "peripherals": {
+            "printer": {
+                "printer": 2053013552955916539
+            },
+            "monitor": {
+                "monitor": 2053013553031414015
+            },
+            "keyboard": {
+                "keyboard": 2053013552913973497
+            },
+            "mouse": {
+                "mouse": 2053013552888807671
+            },
+            "camera": {
+                "camera": 2053013552502931683
+            }
+        },
+        "components": {
+            "hdd": {
+                "hdd": 2053013554222596431
+            },
+            "memory": {
+                "memory": 2053013554189041997
+            },
+            "videocards": {
+                "videocards": 2053013554247762257
+            },
+            "cpu": {
+                "cpu": 2053013554121933129
+            },
+            "cooler": {
+                "cooler": 2053013563718501229
+            },
+            "power_supply": {
+                "power_supply": 2053013554096767303
+            },
+            "motherboard": {
+                "motherboard": 2053013554155487563
+            },
+            "sound_card": {
+                "sound_card": 2061717948468297988
+            },
+            "cdrw": {
+                "cdrw": 2110937219442148235
+            }
+        },
+        "desktop": {
+            "desktop": 2053013559868129947
+        },
+        "ebooks": {
+            "ebooks": 2053013553316626707
+        }
+    },
+    "apparel": {
+        "shoes": {
+            "shoes": 2100064855133258156,
+            "keds": {
+                "keds": 2053013565069067197
+            },
+            "moccasins": {
+                "moccasins": 2053013565253616583
+            },
+            "slipons": {
+                "slipons": 2053013565329114057
+            },
+            "sandals": {
+                "sandals": 2136389354015162499
+            },
+            "ballet_shoes": {
+                "ballet_shoes": 2053013565857596389
+            },
+            "step_ins": {
+                "step_ins": 2053013565152953281
+            },
+            "espadrilles": {
+                "espadrilles": 2232732098303623659
+            }
+        },
+        "trousers": {
+            "trousers": 2110937219005940617
+        },
+        "underwear": {
+            "underwear": 2070005009382114061
+        },
+        "tshirt": {
+            "tshirt": 2097815753423061045
+        },
+        "scarf": {
+            "scarf": 2069241407767315312
+        },
+        "shirt": {
+            "shirt": 2086471240842740173
+        },
+        "shorts": {
+            "shorts": 2076715364237967901
+        },
+        "belt": {
+            "belt": 2053013566277026813
+        },
+        "costume": {
+            "costume": 2146551843914777018
+        },
+        "sock": {
+            "sock": 2127424820051182462
+        },
+        "skirt": {
+            "skirt": 2110187395688169553
+        },
+        "jeans": {
+            "jeans": 2146660887094624580
+        },
+        "jacket": {
+            "jacket": 2110937217663763331
+        },
+        "dress": {
+            "dress": 2146660887002349890
+        },
+        "jumper": {
+            "jumper": 2166064855264526831
+        },
+        "glove": {
+            "glove": 2147123663017608108
+        },
+        "pajamas": {
+            "pajamas": 2053013564918072245
+        }
+    },
+    "construction": {
+        "tools": {
+            "drill": {
+                "drill": 2053013556252639687
+            },
+            "light": {
+                "light": 2098563450757186313
+            },
+            "welding": {
+                "welding": 2127425436764865054
+            },
+            "saw": {
+                "saw": 2053013556202308035
+            },
+            "generator": {
+                "generator": 2053013566142809077
+            },
+            "painting": {
+                "painting": 2127425434894205468
+            },
+            "pump": {
+                "pump": 2053013560086233771
+            },
+            "soldering": {
+                "soldering": 2150829948548416122
+            },
+            "screw": {
+                "screw": 2187707789055361298
+            },
+            "axe": {
+                "axe": 2095518917320508073
+            }
+        },
+        "components": {
+            "faucet": {
+                "faucet": 2053013557343158789
+            }
+        }
+    },
+    "accessories": {
+        "bag": {
+            "bag": 2053013566209917945
+        },
+        "wallet": {
+            "wallet": 2053013566243472379
+        },
+        "umbrella": {
+            "umbrella": 2094006249627582860
+        }
+    },
+    "stationery": {
+        "cartrige": {
+            "cartrige": 2053013552737812719
+        },
+        "paper": {
+            "paper": 2282652065861730868
+        }
+    },
+    "kids": {
+        "fmcg": {
+            "diapers": {
+                "diapers": 2053013556344914381
+            }
+        },
+        "carriage": {
+            "carriage": 2053013560346280633
+        },
+        "skates": {
+            "skates": 2053013555816432043
+        },
+        "dolls": {
+            "dolls": 2053013553224352013
+        },
+        "toys": {
+            "toys": 2053013553140465927
+        },
+        "swing": {
+            "swing": 2106075662325383725
+        }
+    },
+    "medicine": {
+        "tools": {
+            "tonometer": {
+                "tonometer": 2053013562292437791
+            }
+        }
+    },
+    "sport": {
+        "bicycle": {
+            "bicycle": 2116907525176557699
+        },
+        "trainer": {
+            "trainer": 2053013564599305123
+        },
+        "ski": {
+            "ski": 2053013559348036219
+        },
+        "snowboard": {
+            "snowboard": 2053013559440310913
+        },
+        "tennis": {
+            "tennis": 2134905045253095435
+        },
+        "diving": {
+            "diving": 2232732120457937908
+        }
+    },
+    "country_yard": {
+        "cultivator": {
+            "cultivator": 2053013559985570467
+        },
+        "lawn_mower": {
+            "lawn_mower": 2053013560061067945
+        },
+        "furniture": {
+            "hammok": {
+                "hammok": 2059484601981600061
+            },
+            "bench": {
+                "bench": 2059484602015154495
+            }
+        }
+    }
+}
