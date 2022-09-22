@@ -92,7 +92,7 @@ Script de Base de Datos PostgreSQL en equipo local más DBeaver como interface g
 
 Se define una variable por cada uno de los ficheros csv de los eventos del e-commerce mensuales y después se unen los valores de todas las variables en una única. Por último se exportan los datos a un fichero csv. Este proceso se realiza con un proceso de copia temporal hasta que termina de copiar todos los datos en dicho fichero *csv*. Este proceso es bastante intensivo en memoria y puede hacer que la maquina de google colab se quede sin capacidad necesaria para realizarlo y haya que lanzarlo más de una vez para obtener el resulado deseado.
 
-3. [Pandas en local](preparacion/preprocesamiento_multistore.ipnynb)
+3. [Pandas en local](preparacion/preprocesamiento_multistore.ipynb)
 
 Finalmente hemos optado por continuar el procesamiento del fichero *csv* con Pandas en una máquina local provista de 32GB de RAM. El procesamiento ha consistido en filtrar los eventos que contenían el valor 'sale' en la columna 'event_type'. Estos eventos son los que realmente nos interesan para realizar el *sale forecasting*. En el EDA (ver la sección [EDA](#eda) se ha extraido un subset de este set que contiene únicamente los eventos de venta relativos a smartphones. Asimismo se han extraído todas las marcas vendidas.
 
