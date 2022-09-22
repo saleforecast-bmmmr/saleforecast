@@ -202,11 +202,15 @@ Para la visualización del trabajo se va a realizar con Looker ya que esta embeb
 
 Los factores principales del éxito de la presentación de resultados al cliente son la claridad, la expresividad y la concisión. El cliente no quiere saber qué herramientas hemos utilizado, ni qué pipeline hemos aplicado. Quiere obtener respuestas concluyentes y claramente expresadas a las preguntas de su encargo. Para ello nos hemos apoyado en una herramienta estática (Powerpoint) y dos herramientas dinámicas. La presentación Powerpoint está pensada para su uso en la presentación presencial de resultados y como documento fácilmente distribuible dentro de la empresa cliente, tanto en formato físico como electrónico. La presentación PowerBI, al añadir características interactivas, está pensada para uso directo por parte de los analistas de datos y responsables de toma de decisiones dentro de la empresa. Finalmente la aplicación web, está pensada como herramienta de trabajo, que permite realizar consultas de KPIs y forecastings. Es la interfaz gráfica de la arquitectura de ingesta, procesamiento, análisis y predicción que hemos creado. Su ubicación natural es un servidor de la Intranet de la empresa.
 
+** Material de presentacion **
 
+- [Dashboard de PowerBI](https://drive.google.com/file/d/12eu4oabO1h1MJJb7xaSk8NuFUMSC-3wV/view?usp=sharing)
+- [Gráfica D3 como las empleadas en el sitio web](presentacion/d3js-barchart/Screenshot%202022-09-20%20231033.jpg)
+ - [Sitio web - el enlace puede no funcionar, porque la IP de la web es dinámica](http://34.175.4.220/)
 
 ## CONCLUSIÓN FINAL DEL TRABAJO
 
-La conclusión final es que nos hemos dado cuenta de la dificultad del trabajo a la hora de tratar y modelar data set de un tamaño considerable, en nuestro caso de 50GB. Pero este tamaño es pequeño con la inmensa generación de datos en la vida real de una empresa. Además este dataset esta bastante virgen, en el sentido que no es un dataset académico sino que son datos reales con sus ineficacias y sus problemas (datos duplicados, outliers por errores de procesamiento, circunstancias temporales no previstas, etc).
+La conclusión final es que nos hemos dado cuenta de la dificultad del trabajo a la hora de tratar y modelar un data set de un tamaño considerable, en nuestro caso un archivo CSV de 50GB, que contiene 285 millones de eventos. Pero este tamaño es pequeño con la inmensa generación de datos en la vida real de una empresa. Además este dataset esta bastante virgen, en el sentido que no es un dataset académico sino que son datos reales con sus ineficacias y sus problemas (datos duplicados, outliers por errores de procesamiento, circunstancias temporales no previstas, etc).
 
 Hemos visto que se necesita un entorno de desarrollo cloud para poder configurar la aplicación en producción debido a que sino no se podría automatizar y el elevado coste de ternerlo on premise.
 
