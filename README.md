@@ -84,12 +84,18 @@ Se ha utilizado estas dos herramientas debido al tamaño de la base de datos. En
 
 Incluimos cuatro ficheros donde se detalla el código utilizado en el trabajo:
 
-1. Postgresql_script.sql ()[preparacion/Postgresql_script.sql)
+1. Postgresql_script.sql [](/preparacion/Postgresql_script.sql)
+
 Script de Base de Datos PostgreSQL en equipo local más DBeaver como interface gráfica para realizar las consultas. Se realizan diferentes selects para agregar los datos de los *csv* de los eventos del ecommerce en una única base de datos y al final cuando se tienen todos unidos se realiza una exportación a un CSV único.
-2. EDA_pyspark.ipnyb ()[preparacion/EDA_pyspark.ipnyb]
+
+2. EDA_pyspark.ipnyb [](preparacion/EDA_pyspark.ipnyb)
+
 Se define una variable por cada uno de los ficheros csv de los eventos del e-commerce mensuales y después se unen los valores de todas las variables en una única. Por último se exportan los datos a un fichero csv. Este proceso se realiza con un proceso de copia temporal hasta que termina de copiar todos los datos en dicho fichero *csv*. Este proceso es bastante intensivo en memoria y puede hacer que la maquina de google colab se quede sin capacidad necesaria para realizarlo y haya que lanzarlo más de una vez para obtener el resulado deseado.
+
 3. Pandas en local [](preparacion/Preprocesamiento_multistore.ipnynb)
+
 Finalmente hemos optado por continuar el procesamiento del fichero *csv* con Pandas en una máquina local provista de 32GB de RAM. El procesamiento ha consistido en filtrar los eventos que contenían el valor 'sale' en la columna 'event_type'. Estos eventos son los que realmente nos interesan para realizar el *sale forecasting*. En el EDA (ver la sección [EDA](#eda) se ha extraido un subset de este set que contiene únicamente los eventos de venta relativos a smartphones. Asimismo se han extraído todas las marcas vendidas.
+
 4. GoogleTrends.ipnyb [](preparacion/GoogleTrends.ipnyb)
 Se ha utilizado GoogleTrends para obtener series históricas de popularidad en cuanto a búsquedas en Google a lo largo del periodo de referencia (octubre 2019 - abril 2020) para las marcas del subset *Smartphones* (ver punto anterior). Estas búsquedas no estás restringidas a una localización geográfica determinada.
 
