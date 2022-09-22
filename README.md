@@ -97,6 +97,7 @@ Se define una variable por cada uno de los ficheros csv de los eventos del e-com
 Finalmente hemos optado por continuar el procesamiento del fichero *csv* con Pandas en una máquina local provista de 32GB de RAM. El procesamiento ha consistido en filtrar los eventos que contenían el valor 'sale' en la columna 'event_type'. Estos eventos son los que realmente nos interesan para realizar el *sale forecasting*. En el EDA (ver la sección [EDA](#eda) se ha extraido un subset de este set que contiene únicamente los eventos de venta relativos a smartphones. Asimismo se han extraído todas las marcas vendidas.
 
 4. [GoogleTrends.ipnyb](preparacion/GoogleTrends.ipynb)
+
 Se ha utilizado GoogleTrends para obtener series históricas de popularidad en cuanto a búsquedas en Google a lo largo del periodo de referencia (octubre 2019 - abril 2020) para las marcas del subset *Smartphones* (ver punto anterior). Estas búsquedas no estás restringidas a una localización geográfica determinada.
 
 **Conclusiones:**
