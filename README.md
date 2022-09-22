@@ -39,9 +39,8 @@ Para nuestro estudio y nuestras proyecciones el cliente nos ha proporcionado el 
 
 [Dataset original](https://drive.google.com/drive/folders/1n78LbqzTnfvkQ8yWCbjJdqaEkHJAIJ3-?usp=sharing)
 
-Consta de siete archivos en formato **csv**, uno por mes dentro del periodo **Octubre 2019 - Abril 2020**. Cada fila de los archivos representa un evento provocado por un usuario del sitio de comercio electrónico. Todos los eventos están relacionados con productos y usuarios. Cada evento es como una relación de muchos a muchos entre productos y usuarios.
+Consta de siete archivos en formato **csv**, uno por mes dentro del periodo **Octubre 2019 - Abril 2020**, con un tamaño medio de 7GB por archivo. Cada fila de los archivos representa un evento provocado por un usuario del sitio de comercio electrónico. Todos los eventos están relacionados con productos y usuarios. Cada evento es como una relación de muchos a muchos entre productos y usuarios.
 
-Se compone de 7 ficheros csv(uno por cada mes de octubre 2019 a abril de 2020) con un tamaño medio de 7 GB cada uno.
 
 ## PROPUESTA DE SOLUCIÓN AL CASO
 
