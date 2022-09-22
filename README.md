@@ -52,17 +52,17 @@ Consta de siete archivos en formato **csv**, uno por mes dentro del periodo **Oc
 
 **Herramientas utilizadas:**
 
-	- Internet
-	- Entrevista a personas del sector
+- Internet
+- Entrevista a personas del sector
 
 **Conclusión:**
 
 Se ha realizado una investigación por internet para saber cuales son los KPI esenciales del negocio del e-commerce y cuales son la información que podría necesitar. De este examen hemos visto que la informaciónn relevante para un e-commerce es:
 
-	- Conocer la *churn rate* (tasa de abandono por parte de clientes) y ratios de conversión (en contrato a ventas)
-	- Análisis RFM [Análisis RFM](https://www.ibm.com/docs/es/spss-statistics/saas?topic=marketing-rfm-analysis)
-	- Predicción de ventas futuras
-	- Datos externos sobre (p. ej. de *Google Trends*), para cruzarlos con el dataset proporcionados
+- Conocer la *churn rate* (tasa de abandono por parte de clientes) y ratios de conversión (en contrato a ventas)
+- Análisis RFM [Análisis RFM](https://www.ibm.com/docs/es/spss-statistics/saas?topic=marketing-rfm-analysis)
+- Predicción de ventas futuras
+- Datos externos sobre (p. ej. de *Google Trends*), para cruzarlos con el dataset proporcionados
 
 Para dar respuesta a estas necesidades utilizaremos Big Data con distintas herramientas, que explicaremos a continuación.
 	
@@ -70,11 +70,11 @@ Para dar respuesta a estas necesidades utilizaremos Big Data con distintas herra
 
 **Herramientas utilizadas:**
 
-	- PostgreSQL
-	- PySpark
-	- Google Colab Pro con GPU
-	- Pandas en local
-	- PyTrends
+- PostgreSQL
+- PySpark
+- Google Colab Pro con GPU
+- Pandas en local
+- PyTrends
 
 **Justificación de su utilización:**
 
@@ -84,14 +84,14 @@ Se ha utilizado estas dos herramientas debido al tamaño de la base de datos. En
 
 Incluimos cuatro ficheros donde se detalla el código utilizado en el trabajo:
 
-	1. Postgresql_script.sql ()[preparacion/Postgresql_script.sql)
-	   Script de Base de Datos PostgreSQL en equipo local más DBeaver como interface gráfica para realizar las consultas. Se realizan diferentes selects para agregar los datos de los *csv* de los eventos del ecommerce en una única base de datos y al final cuando se tienen todos unidos se realiza una exportación a un CSV único.
-	2. EDA_pyspark.ipnyb ()[preparacion/EDA_pyspark.ipnyb]
-	   Se define una variable por cada uno de los ficheros csv de los eventos del e-commerce mensuales y después se unen los valores de todas las variables en una única. Por último se exportan los datos a un fichero csv. Este proceso se realiza con un proceso de copia temporal hasta que termina de copiar todos los datos en dicho fichero *csv*. Este proceso es bastante intensivo en memoria y puede hacer que la maquina de google colab se quede sin capacidad necesaria para realizarlo y haya que lanzarlo más de una vez para obtener el resulado deseado.
-	3. Pandas en local [](preparacion/Preprocesamiento_multistore.ipnynb)
-	   Finalmente hemos optado por continuar el procesamiento del fichero *csv* con Pandas en una máquina local provista de 32GB de RAM. El procesamiento ha consistido en filtrar los eventos que contenían el valor 'sale' en la columna 'event_type'. Estos eventos son los que realmente nos interesan para realizar el *sale forecasting*. En el EDA (ver la sección [EDA](#eda) se ha extraido un subset de este set que contiene únicamente los eventos de venta relativos a smartphones. Asimismo se han extraído todas las marcas vendidas.
-	 4. GoogleTrends.ipnyb [](preparacion/GoogleTrends.ipnyb)
-	    Se ha utilizado GoogleTrends para obtener series históricas de popularidad en cuanto a búsquedas en Google a lo largo del periodo de referencia (octubre 2019 - abril 2020) para las marcas del subset *Smartphones* (ver punto anterior). Estas búsquedas no estás restringidas a una localización geográfica determinada.
+1. Postgresql_script.sql ()[preparacion/Postgresql_script.sql)
+Script de Base de Datos PostgreSQL en equipo local más DBeaver como interface gráfica para realizar las consultas. Se realizan diferentes selects para agregar los datos de los *csv* de los eventos del ecommerce en una única base de datos y al final cuando se tienen todos unidos se realiza una exportación a un CSV único.
+2. EDA_pyspark.ipnyb ()[preparacion/EDA_pyspark.ipnyb]
+Se define una variable por cada uno de los ficheros csv de los eventos del e-commerce mensuales y después se unen los valores de todas las variables en una única. Por último se exportan los datos a un fichero csv. Este proceso se realiza con un proceso de copia temporal hasta que termina de copiar todos los datos en dicho fichero *csv*. Este proceso es bastante intensivo en memoria y puede hacer que la maquina de google colab se quede sin capacidad necesaria para realizarlo y haya que lanzarlo más de una vez para obtener el resulado deseado.
+3. Pandas en local [](preparacion/Preprocesamiento_multistore.ipnynb)
+Finalmente hemos optado por continuar el procesamiento del fichero *csv* con Pandas en una máquina local provista de 32GB de RAM. El procesamiento ha consistido en filtrar los eventos que contenían el valor 'sale' en la columna 'event_type'. Estos eventos son los que realmente nos interesan para realizar el *sale forecasting*. En el EDA (ver la sección [EDA](#eda) se ha extraido un subset de este set que contiene únicamente los eventos de venta relativos a smartphones. Asimismo se han extraído todas las marcas vendidas.
+4. GoogleTrends.ipnyb [](preparacion/GoogleTrends.ipnyb)
+Se ha utilizado GoogleTrends para obtener series históricas de popularidad en cuanto a búsquedas en Google a lo largo del periodo de referencia (octubre 2019 - abril 2020) para las marcas del subset *Smartphones* (ver punto anterior). Estas búsquedas no estás restringidas a una localización geográfica determinada.
 
 **Conclusiones:**
 
@@ -102,24 +102,25 @@ De las dos herramientas se ha visto que es más eficiente y rápida realizar la 
 
 **Herramientas utilizadas:**
 
-	- Numpy
-	- Pandas
-	- Maplotlib
+- Numpy
+- Pandas
+- Maplotlib
 	
 
 **Justificación de su utilización:**
 
 Se utiliza numpy y pandas por su facilidad para el tratamiento de los datos y la manipulación de los mismos. No se utiliza pySpark porque aquí el tamaño de los datos no es crítico ya que se ha reducido considerablemente al estar trabajando con un fichero de un tamaño menor a un 1 GB.
 
-Trabajo realizado:
+**Trabajo realizado:**
 
 Los ficheros con código son:
 
-	- EDA.ipnyb
+- EDA.ipnyb
 
 Se utilizan los datos solo del mes de diciembre para realizar y ver los datos claves a controlas del ecommerce coomo pueden ser cuales son las marcas que más venden, cual es la cifra de negocios para este mes, cuales son los ratios de conversión, cual es la categoría de producto más vista. Después se hace un análisis sobre la categoría de smartphone, ya que es el producto estrella de este ecommerce. Se realiza un análisis RFM que permite segmentar a los clientes en base a parámetros como el tiempo que ha pasado desde la última compra (R - Recency o Reciente), la frecuencia con la que realizan compras (F - Frequency o Frecuencia) y la suma total de todas las compras (M - Monetary Value o Valor Monetario).
-	- Customer journey
-	Se ha utilizado las librerias de panda y numpy para poder realizar un customer journey del proceso de compra de un cliente en el ecommerce. Así se podría ir analizando donde estan los cuellos de botella en uníon con los datos de Google Analytics y los Heatmaps de la usabilidad del ecommerce.
+
+- Customer journey
+Se ha utilizado las librerias de panda y numpy para poder realizar un customer journey del proceso de compra de un cliente en el ecommerce. Así se podría ir analizando donde estan los cuellos de botella en uníon con los datos de Google Analytics y los Heatmaps de la usabilidad del ecommerce.
 	
 	
 **Conclusiones:**
@@ -131,12 +132,12 @@ Con el anális de los KPI del ecommerce podemos dar una visión sobre cuáles so
 
 **Herramientas utilizadas:**
 
-	- Numpy
-	- Pandas
-	- Maplotlib
-	- Scikit-Learn
-	- Prophet
-	- Neuralprophet
+- Numpy
+- Pandas
+- Maplotlib
+- Scikit-Learn
+- Prophet
+- Neuralprophet
 
 **Justificación de su utilización:**
 
@@ -144,11 +145,11 @@ Se utiliza Sklearn Learning para realizar cluster, no utilizamos Deep Learning p
 
 Los ficheros con código son:
 
-	- Market basket analisis.ipnyb
-	En este notebook se realiza una técnica de cluster para establecer si existe venta cruzada entre los productos que se vende y así poder realizar campañas con los productos que se suelen comprar a la vez. Se utiliza Scikit-learn porque el tamaño del fichero no es muy grande y porque su interpretación es más facil que con deep learning. Se establece una tabla con los productos que se compran a la vez en relación a su grado de correlación en la compra
+- Market basket analisis.ipnyb
+En este notebook se realiza una técnica de cluster para establecer si existe venta cruzada entre los productos que se vende y así poder realizar campañas con los productos que se suelen comprar a la vez. Se utiliza Scikit-learn porque el tamaño del fichero no es muy grande y porque su interpretación es más facil que con deep learning. Se establece una tabla con los productos que se compran a la vez en relación a su grado de correlación en la compra
 	
-	- Prediccion.ipnyb
-	Se utiliza la API de Prophet para Python, ya que estamos con una serie temporal del importe de las ventas en cada día para ver si existe una temporalidad y se obtiene que hay una fuerte temporaralidad que lleva a una gráfica de dienntes de sierra que comienza con ventas a finales de la semana con caidas al inicio de la semana. Se observa también que los datos más altos de la serie estan en el mes de febrero. Todo esto lleva a indicar que este dataset es de un país asiático ya que las fiestas de año nuevo se celebran sobre esa época y que sea musulman pricipalmente ya que el viernes y sábaod es fiesta mientras que el domingo no. Esta estacionalidad se intennta solventas con diferentes técnica, pero a pesar de ello en la valoración del modelo no es muy aceptable. Uttilizamos la versión de deep learning del modelo que es Neuraprophet y se ve que aproxima más el modelo a los datos reales. Con lo cual con esta última herramienta, neuralprophet, es con la que se predice las ventas del mes de mayo que no se tiene datos en el data set. También se aprecia que cuanto más alejada es la predicción de los datos reales existe una mayor variabilidad en la proyección. También se ha utilizado un analisis añadiendo como regresor los datos de Google Trends para la marca Apple y se ve que su proyección es que su índice se vea mejorado en un futuro
+- Prediccion.ipnyb
+Se utiliza la API de Prophet para Python, ya que estamos con una serie temporal del importe de las ventas en cada día para ver si existe una temporalidad y se obtiene que hay una fuerte temporaralidad que lleva a una gráfica de dienntes de sierra que comienza con ventas a finales de la semana con caidas al inicio de la semana. Se observa también que los datos más altos de la serie estan en el mes de febrero. Todo esto lleva a indicar que este dataset es de un país asiático ya que las fiestas de año nuevo se celebran sobre esa época y que sea musulman pricipalmente ya que el viernes y sábaod es fiesta mientras que el domingo no. Esta estacionalidad se intennta solventas con diferentes técnica, pero a pesar de ello en la valoración del modelo no es muy aceptable. Uttilizamos la versión de deep learning del modelo que es Neuraprophet y se ve que aproxima más el modelo a los datos reales. Con lo cual con esta última herramienta, neuralprophet, es con la que se predice las ventas del mes de mayo que no se tiene datos en el data set. También se aprecia que cuanto más alejada es la predicción de los datos reales existe una mayor variabilidad en la proyección. También se ha utilizado un analisis añadiendo como regresor los datos de Google Trends para la marca Apple y se ve que su proyección es que su índice se vea mejorado en un futuro
 	
 	
 A nivel de visualización de los resultados hemos utilizado D3 y Power BI para poder ver la diferencia en la capacidad de visualización y de análisis visual de estas dos herramientas. Ademas se ha realizado con Flask una aplicación en local para poder ver el análisis EDA del ecommerce.
@@ -158,9 +159,9 @@ A nivel de visualización de los resultados hemos utilizado D3 y Power BI para p
 
 **Herramientas utilizadas:**
 
-	* Gitlab
-	* Google Colab Pro
-	* Google Cloud Platform, siendo el pipeline el siguiente:
+* Gitlab
+* Google Colab Pro
+* Google Cloud Platform, siendo el pipeline el siguiente:
 
 
 ![](https://miro.medium.com/max/1400/1*5GO-VhXyPCo_NL5SwYaWkQ.png)
@@ -184,9 +185,9 @@ Para la visualización del trabajo se va a realizar con Looker ya que esta embeb
 
 **Herramientas utilizadas:**
 
-        - Powerpoint
-	- PowerBI
-	- Aplicación web realizada con la librería Flask de Python, servida por Nginx
+- Powerpoint
+- PowerBI
+- Aplicación web realizada con la librería Flask de Python, servida por Nginx
 
 **Justificación de su utilización:**
 
