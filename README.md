@@ -51,12 +51,14 @@ Consta de siete archivos en formato **csv**, uno por mes dentro del periodo **Oc
 ### Entendimiento del negocio
 
 Herramientas utilizadas:
+
 	* Internet
 	* Entrevista a personas del sector
 
 Conclusión:
 
 Se ha realizado una investigación por internet para saber cuales son los KPI esenciales del negocio del e-commerce y cuales son la información que podría necesitar. De este examen hemos visto que la informaciónn relevante para un e-commerce es:
+
 	* Conocer la *churn rate* (tasa de abandono por parte de clientes) y ratios de conversión (en contrato a ventas)
 	* Análisis RFM [Análisis RFM](https://www.ibm.com/docs/es/spss-statistics/saas?topic=marketing-rfm-analysis)
 	* Predicción de ventas futuras
@@ -124,7 +126,7 @@ Los ficheros con código son:
 	
 **Conclusiones:**
 
-Creo que con el anális de los KPI del ecommerce poodemmos dar una visión general de conocer cuales son las marcas más representativas y su contribución a la cifra de negocios, así como los ratios de conversión que permitan el realizar campañas de marketing digital para mejorarlo. Así mismo el análisis RFM permite el establecer diferentes estrategias de marketing en función del cluster en el que este encuadrado nuestro cliente. Todas estas herramientas e información que le podemos dar rebundará en una mejor estrategia de marketing digital y por tanto en una posible mejora de la cifra de negocios en meses o años sucesivos, así como conocer mejor a nuestro cliente en función de sus hábitos de compra.
+Con el anális de los KPI del ecommerce podemos dar una visión sobre cuáles son las marcas más representativas y su contribución a la cifra de negocios, así como los ratios de conversión que permitan el realizar campañas de marketing digital para mejorarlo. Asimismo, el análisis RFM permite el establecer diferentes estrategias de marketing en función del cluster en el que este encuadrado nuestro cliente. Todas estas herramientas e información que le podemos dar rebundará en una mejor estrategia de marketing digital y por tanto en una posible mejora de la cifra de negocios en meses o años sucesivos, así como conocer mejor a nuestro cliente en función de sus hábitos de compra.
 
 
 ### Modelado de datos/Evaluación del modelo
@@ -190,7 +192,7 @@ Para la visualización del trabajo se va a realizar con Looker ya que esta embeb
 
 **Justificación de su utilización:**
 
-Los factores principales del éxito de la presentación de resultados al cliente son la claridad, la expresividad y la concisión. El cliente no quiere saber qué herramientas hemos utilizado, ni que pipeline hemos aplicado. Quiere obtener respuestas concluyentes y claramente expresadas a las preguntas de su encargo. Para ello nos hemos apoyado en una herramienta estática (Powerpoint) y dos herramientas dinámicas. La presentación Powerpoint está pensada para su uso en la presentación presencial de resultados y como documento fácilmente distribuible dentro de la empresa cliente, tanto en formato físico como electrónico. La presentación PowerBI, al añadir características interactivas, está pensada para uso directo por parte de los analistas de datos y responsables de toma de decisiones dentro de la empresa. Finalmente la aplicación web, está pensada como herramienta de trabajo, que permite realizar consultas de KPIs y forecastings. Es la interfaz gráfica de la arquitectura de ingesta, procesamiento, análisis y predicción que hemos creado. Su ubicación natural es un servidor de la Intranet de la empresa.
+Los factores principales del éxito de la presentación de resultados al cliente son la claridad, la expresividad y la concisión. El cliente no quiere saber qué herramientas hemos utilizado, ni qué pipeline hemos aplicado. Quiere obtener respuestas concluyentes y claramente expresadas a las preguntas de su encargo. Para ello nos hemos apoyado en una herramienta estática (Powerpoint) y dos herramientas dinámicas. La presentación Powerpoint está pensada para su uso en la presentación presencial de resultados y como documento fácilmente distribuible dentro de la empresa cliente, tanto en formato físico como electrónico. La presentación PowerBI, al añadir características interactivas, está pensada para uso directo por parte de los analistas de datos y responsables de toma de decisiones dentro de la empresa. Finalmente la aplicación web, está pensada como herramienta de trabajo, que permite realizar consultas de KPIs y forecastings. Es la interfaz gráfica de la arquitectura de ingesta, procesamiento, análisis y predicción que hemos creado. Su ubicación natural es un servidor de la Intranet de la empresa.
 
 
 
