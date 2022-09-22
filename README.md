@@ -50,12 +50,12 @@ Consta de siete archivos en formato **csv**, uno por mes dentro del periodo **Oc
 
 ### Entendimiento del negocio
 
-Herramientas utilizadas:
+**Herramientas utilizadas:**
 
 	- Internet
 	- Entrevista a personas del sector
 
-Conclusión:
+**Conclusión:**
 
 Se ha realizado una investigación por internet para saber cuales son los KPI esenciales del negocio del e-commerce y cuales son la información que podría necesitar. De este examen hemos visto que la informaciónn relevante para un e-commerce es:
 
@@ -66,7 +66,7 @@ Se ha realizado una investigación por internet para saber cuales son los KPI es
 
 Para dar respuesta a estas necesidades utilizaremos Big Data con distintas herramientas, que explicaremos a continuación.
 	
-### Preparación de los datos (carpeta **preparacion**
+### Preparación de los datos
 
 **Herramientas utilizadas:**
 
@@ -138,7 +138,7 @@ Con el anális de los KPI del ecommerce podemos dar una visión sobre cuáles so
 	- Prophet
 	- Neuralprophet
 
-Justificación de su utilización:
+**Justificación de su utilización:**
 
 Se utiliza Sklearn Learning para realizar cluster, no utilizamos Deep Learning por el tamaño reducido de los datos en este caso y prophet/neuralprophet para series temporales ya que es una herramienta con un alto componente visual y una alta potencia de cálculo. Neuralprophet se ha hecho uso de esta libreria por el poder utilizar deep learning con series temporales.
 
@@ -183,7 +183,8 @@ Para la visualización del trabajo se va a realizar con Looker ya que esta embeb
 ### Presentación
 
 **Herramientas utilizadas:**
-	- Powerpoint
+
+        - Powerpoint
 	- PowerBI
 	- Aplicación web realizada con la librería Flask de Python, servida por Nginx
 
