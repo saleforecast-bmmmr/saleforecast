@@ -1,4 +1,4 @@
-***_SALES FORECASTING ECOMMERCE_***
+# SALES FORECASTING E-COMMERCE
 
 El comercio electrónico se mueve por unos parámetros distintos a los de la distribución
 minorista tradicional en tiendas de “ladrillo”. Si bien presenta ventajas evidentes, como 
