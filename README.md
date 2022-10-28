@@ -126,6 +126,10 @@ Los ficheros con código son:
 
 Se utilizan los datos solo del mes de diciembre para realizar y ver los datos claves a controlas del ecommerce coomo pueden ser cuales son las marcas que más venden, cual es la cifra de negocios para este mes, cuales son los ratios de conversión, cual es la categoría de producto más vista. Después se hace un análisis sobre la categoría de smartphone, ya que es el producto estrella de este ecommerce. Se realiza un análisis RFM que permite segmentar a los clientes en base a parámetros como el tiempo que ha pasado desde la última compra (R - Recency o Reciente), la frecuencia con la que realizan compras (F - Frequency o Frecuencia) y la suma total de todas las compras (M - Monetary Value o Valor Monetario).
 
+- [Análisis de una de las series temporal - la referencia 1004767] (eda/An%C3%A1lisis%20de%20una%20de%20las%20series%20temporales%20-%20la%20referencia%201004767.ipynb)
+
+En este notebook analizamos con detalle la serie temporal correspondiente a la referencia n.º 1004767, que por lo que deducimos de la categoría a la que pertenece, es un *smartphone* de Samsung. Ploteamos las ventas agregando por días, semanas y meses. Representamos *log scatters* con un *lag* de hasta 7 días y un diagrama de autocorrelación. Descomponemos en tendencia, estacionalidad y residuales (*ruido*) y analizamos la estacionaridad con ayuda de un test ADF. Finalmente tratamos de convertir la serie temporal en estacionaria y llegamos a la conclusión, mediante un nuevo plot de autocorrelación, de que se trata de un *random walk*, es decir, que los cambios en el número de unidades vendidas son completamente aleatorio y, por ello, impredecibles. La predicción aplicada solo podrá ser "ingenua" (*naive forecast*). 
+
 - [Customer journey](/eda/Customer_journey.ipynb)
 
 Se ha utilizado las librerias de panda y numpy para poder realizar un customer journey del proceso de compra de un cliente en el ecommerce. Así se podría ir analizando donde estan los cuellos de botella en uníon con los datos de Google Analytics y los Heatmaps de la usabilidad del ecommerce.
